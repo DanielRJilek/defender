@@ -50,6 +50,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -96,9 +97,9 @@ events:
       The output was:
       0
       MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 7/22/2026 9:20:36 PM.
+      Build started 8/13/2026 4:55:00 PM.
       
-      Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -114,13 +115,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -128,13 +129,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.37
+      Time Elapsed 00:00:02.57
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -142,7 +143,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -173,6 +174,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -204,6 +206,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -235,6 +238,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -281,6 +285,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link"
@@ -374,6 +381,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link"
@@ -469,6 +479,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -528,6 +539,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -559,6 +571,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -590,6 +603,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -636,6 +650,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -729,6 +746,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -822,6 +842,9 @@ events:
       - "C:/Program Files/Git/usr/bin/lld-link.com"
       - "C:/Program Files/Git/usr/bin/lld-link.exe"
       - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -916,6 +939,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -973,6 +997,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -1004,6 +1029,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -1035,6 +1061,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1081,6 +1108,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/link"
@@ -1174,6 +1204,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/link"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/link"
@@ -1269,6 +1302,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -1326,6 +1360,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -1357,6 +1392,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -1388,6 +1424,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1434,6 +1471,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/mt.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/mt.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/mt"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/mt"
@@ -1527,6 +1567,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/mt.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/mt.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/mt"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/mt"
@@ -1620,6 +1663,9 @@ events:
       - "C:/Program Files/Git/usr/bin/mt.com"
       - "C:/Program Files/Git/usr/bin/mt.exe"
       - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
@@ -1714,6 +1760,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -1771,6 +1818,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -1802,6 +1850,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -1833,6 +1882,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1879,6 +1929,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lib.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lib.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lib"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lib.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lib.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lib"
@@ -1972,6 +2025,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lib.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lib.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lib"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lib"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lib.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lib.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lib"
@@ -2067,6 +2123,604 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\windows\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\djroc\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dev\\vcpkg\\.vcpkg-root"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\djroc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\djroc\\.jdks\\openjdk-23.0.1\\bin"
+        - "C:\\Users\\djroc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_FIND_ROOT_PATH: "C:/dev/vcpkg/installed/x64-windows;C:/dev/vcpkg/installed/x64-windows/debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/dev/vcpkg/installed/x64-windows"
+        - "C:/dev/vcpkg/installed/x64-windows/debug"
+      ENV{CMAKE_PREFIX_PATH}:
+        - "C:/dev/vcpkg/installed/x64-windows"
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\path\\to\\your\\vcpkg"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Users\\djroc\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\windows\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\djroc\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dev\\vcpkg\\.vcpkg-root"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\djroc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\djroc\\.jdks\\openjdk-23.0.1\\bin"
+        - "C:\\Users\\djroc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_FIND_ROOT_PATH: "C:/dev/vcpkg/installed/x64-windows;C:/dev/vcpkg/installed/x64-windows/debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+      Build started 8/13/2026 4:55:03 PM.
+      
+      Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.20
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/"
+      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/"
+      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Git/path/to/your/vcpkg/"
+      - "C:/dev/vcpkg/"
+      - "C:/Users/djroc/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/djroc/opencv/build/x64/vc16/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dev/vcpkg/.vcpkg-root/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/"
+      - "C:/Users/djroc/AppData/Roaming/npm/"
+      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link.com"
+      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
+      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link"
+      - "C:/dev/vcpkg/lld-link.com"
+      - "C:/dev/vcpkg/lld-link.exe"
+      - "C:/dev/vcpkg/lld-link"
+      - "C:/Users/djroc/bin/lld-link.com"
+      - "C:/Users/djroc/bin/lld-link.exe"
+      - "C:/Users/djroc/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
+      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
+      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
+      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
+      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
+      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
+      - "C:/Users/djroc/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/djroc/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/djroc/AppData/Roaming/npm/lld-link"
+      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "C:/dev/vcpkg/installed/x64-windows/tools"
+        - "C:/dev/vcpkg/installed/x64-windows/tools/brotli"
+        - "C:/dev/vcpkg/installed/x64-windows/tools/bzip2"
+      CMAKE_PREFIX_PATH:
+        - "C:/dev/vcpkg/installed/x64-windows"
+        - "C:/dev/vcpkg/installed/x64-windows/debug"
+      ENV{CMAKE_PREFIX_PATH}:
+        - "C:/dev/vcpkg/installed/x64-windows"
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\path\\to\\your\\vcpkg"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Users\\djroc\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -2135,6 +2789,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -2186,6 +2841,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -2237,6 +2893,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2319,6 +2976,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/rc.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/rc.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/rc"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/rc"
@@ -2472,6 +3132,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/rc.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/rc.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/rc"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/rc"
@@ -2625,6 +3288,9 @@ events:
       - "C:/Program Files/Git/usr/bin/rc.com"
       - "C:/Program Files/Git/usr/bin/rc.exe"
       - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
@@ -2755,6 +3421,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -2800,8 +3467,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-12cd4y"
-      binary: "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-12cd4y"
+      source: "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-mfwxdp"
+      binary: "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-mfwxdp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2816,39 +3483,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-12cd4y'
+        Change Dir: 'C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-mfwxdp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40d4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_582f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 7/22/2026 9:20:38 PM.
+        Build started 8/13/2026 4:55:04 PM.
         
-        Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-12cd4y\\cmTC_40d4f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfwxdp\\cmTC_582f7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-12cd4y\\Debug\\".
-          Creating directory "cmTC_40d4f.dir\\Debug\\cmTC_40d4f.tlog\\".
+          Creating directory "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfwxdp\\Debug\\".
+          Creating directory "cmTC_582f7.dir\\Debug\\cmTC_582f7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_40d4f.dir\\Debug\\cmTC_40d4f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_40d4f.dir\\Debug\\cmTC_40d4f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_582f7.dir\\Debug\\cmTC_582f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_582f7.dir\\Debug\\cmTC_582f7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_40d4f.dir\\Debug\\\\" /Fd"cmTC_40d4f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_582f7.dir\\Debug\\\\" /Fd"cmTC_582f7.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36243 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_40d4f.dir\\Debug\\\\" /Fd"cmTC_40d4f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_582f7.dir\\Debug\\\\" /Fd"cmTC_582f7.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-12cd4y\\Debug\\cmTC_40d4f.exe" /INCREMENTAL /ILK:"cmTC_40d4f.dir\\Debug\\cmTC_40d4f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-12cd4y/Debug/cmTC_40d4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-12cd4y/Debug/cmTC_40d4f.lib" /MACHINE:X64  /machine:x64 cmTC_40d4f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_40d4f.vcxproj -> C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-12cd4y\\Debug\\cmTC_40d4f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfwxdp\\Debug\\cmTC_582f7.exe" /INCREMENTAL /ILK:"cmTC_582f7.dir\\Debug\\cmTC_582f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-mfwxdp/Debug/cmTC_582f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-mfwxdp/Debug/cmTC_582f7.lib" /MACHINE:X64  /machine:x64 cmTC_582f7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_582f7.vcxproj -> C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfwxdp\\Debug\\cmTC_582f7.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_40d4f.dir\\Debug\\cmTC_40d4f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_40d4f.dir\\Debug\\cmTC_40d4f.tlog\\cmTC_40d4f.lastbuildstate".
-        Done Building Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-12cd4y\\cmTC_40d4f.vcxproj" (default targets).
+          Deleting file "cmTC_582f7.dir\\Debug\\cmTC_582f7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_582f7.dir\\Debug\\cmTC_582f7.tlog\\cmTC_582f7.lastbuildstate".
+        Done Building Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfwxdp\\cmTC_582f7.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.53
         
       exitCode: 0
   -
@@ -2877,6 +3544,93 @@ events:
       - "CMakeLists.txt:6 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36243.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-b73lcv"
+      binary: "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-b73lcv"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-b73lcv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61a44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+        Build started 8/13/2026 4:55:05 PM.
+        
+        Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b73lcv\\cmTC_61a44.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b73lcv\\Debug\\".
+          Creating directory "cmTC_61a44.dir\\Debug\\cmTC_61a44.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_61a44.dir\\Debug\\cmTC_61a44.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_61a44.dir\\Debug\\cmTC_61a44.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_61a44.dir\\Debug\\\\" /Fd"cmTC_61a44.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36243 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_61a44.dir\\Debug\\\\" /Fd"cmTC_61a44.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b73lcv\\Debug\\cmTC_61a44.exe" /INCREMENTAL /ILK:"cmTC_61a44.dir\\Debug\\cmTC_61a44.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-b73lcv/Debug/cmTC_61a44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/CMakeScratch/TryCompile-b73lcv/Debug/cmTC_61a44.lib" /MACHINE:X64  /machine:x64 cmTC_61a44.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_61a44.vcxproj -> C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b73lcv\\Debug\\cmTC_61a44.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_61a44.dir\\Debug\\cmTC_61a44.tlog\\unsuccessfulbuild".
+          Touching "cmTC_61a44.dir\\Debug\\cmTC_61a44.tlog\\cmTC_61a44.lastbuildstate".
+        Done Building Project "C:\\Users\\djroc\\webdev\\defender\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b73lcv\\cmTC_61a44.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.51.36243.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
@@ -2990,6 +3744,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -3113,6 +3868,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -3236,6 +3992,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -3314,6 +4071,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -3366,6 +4124,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -3418,6 +4177,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -3501,6 +4261,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git.cmd.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git.cmd.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git.cmd"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd"
@@ -3657,6 +4420,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git.cmd.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git.cmd.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git.cmd"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd"
@@ -3813,6 +4579,9 @@ events:
       - "C:/Program Files/Git/usr/bin/git.cmd.com"
       - "C:/Program Files/Git/usr/bin/git.cmd.exe"
       - "C:/Program Files/Git/usr/bin/git.cmd"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.cmd"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd"
@@ -3969,6 +4738,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/git"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/git"
@@ -4125,6 +4897,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/git"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/git"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/git"
@@ -4295,6 +5070,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -4366,6 +5142,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -4417,6 +5194,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -4468,6 +5246,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -4550,6 +5329,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/pwsh.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/pwsh.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/pwsh"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/pwsh"
@@ -4703,6 +5485,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/pwsh.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/pwsh.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/pwsh"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/pwsh"
@@ -4856,6 +5641,9 @@ events:
       - "C:/Program Files/Git/usr/bin/pwsh.com"
       - "C:/Program Files/Git/usr/bin/pwsh.exe"
       - "C:/Program Files/Git/usr/bin/pwsh"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/pwsh"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/pwsh.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/pwsh"
@@ -4986,6 +5774,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -5057,6 +5846,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/Windows/"
@@ -5108,6 +5898,7 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
@@ -5159,6 +5950,7 @@ events:
       - "C:/Program Files/Git/mingw64/bin/"
       - "C:/Program Files/Git/usr/local/bin/"
       - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -5241,6 +6033,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/powershell.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/powershell.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/powershell"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.com"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/powershell.com"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/powershell.exe"
       - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/powershell"
@@ -5394,6 +6189,9 @@ events:
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/powershell.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/powershell.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/powershell"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.com"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.exe"
+      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/powershell.com"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/powershell.exe"
       - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/powershell"
@@ -5547,6 +6345,9 @@ events:
       - "C:/Program Files/Git/usr/bin/powershell.com"
       - "C:/Program Files/Git/usr/bin/powershell.exe"
       - "C:/Program Files/Git/usr/bin/powershell"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.com"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell.exe"
+      - "C:/Users/djroc/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/powershell"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/powershell.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/powershell.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/powershell"
@@ -5582,6 +6383,7 @@ events:
         - "C:\\Program Files\\Git\\mingw64\\bin"
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Users\\djroc\\bin"
+        - "C:\\Users\\djroc\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
         - "C:\\windows\\system32"
         - "C:\\windows"
@@ -5618,680 +6420,4 @@ events:
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/Class050CollisionSystemsAsteroids"
       CMAKE_FIND_ROOT_PATH: "C:/dev/vcpkg/installed/x64-windows;C:/dev/vcpkg/installed/x64-windows/debug"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "LAST"
-      SearchAppBundle: "LAST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCCompilerId.c.in"
-    candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/dev/vcpkg/installed/x64-windows"
-        - "C:/dev/vcpkg/installed/x64-windows/debug"
-      ENV{CMAKE_PREFIX_PATH}:
-        - "C:/dev/vcpkg/installed/x64-windows"
-      ENV{PATH}:
-        - "C:\\Program Files\\Git\\path\\to\\your\\vcpkg"
-        - "C:\\dev\\vcpkg"
-        - "C:\\Users\\djroc\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\djroc\\bin"
-        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
-        - "C:\\windows\\system32"
-        - "C:\\windows"
-        - "C:\\windows\\System32\\Wbem"
-        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\windows\\System32\\OpenSSH"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
-        - "C:\\Program Files\\nodejs"
-        - "C:\\Users\\djroc\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\dev\\vcpkg\\.vcpkg-root"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\djroc\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\djroc\\.jdks\\openjdk-23.0.1\\bin"
-        - "C:\\Users\\djroc\\AppData\\Roaming\\npm"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Class050CollisionSystemsAsteroids"
-      CMAKE_FIND_ROOT_PATH: "C:/dev/vcpkg/installed/x64-windows;C:/dev/vcpkg/installed/x64-windows/debug"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:6 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 7/27/2026 2:29:49 PM.
-      
-      Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      VcpkgTripletSelection:
-        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
-        Using normalized configuration "Release"
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
-      AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        'pwsh.exe' is not recognized as an internal or external command,
-        operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:01.18
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "LAST"
-      SearchAppBundle: "LAST"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/"
-      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/"
-      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/Git/path/to/your/vcpkg/"
-      - "C:/dev/vcpkg/"
-      - "C:/Users/djroc/bin/"
-      - "C:/Program Files/Git/mingw64/bin/"
-      - "C:/Program Files/Git/usr/local/bin/"
-      - "C:/Program Files/Git/usr/bin/"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Users/djroc/opencv/build/x64/vc16/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Users/dev/vcpkg/.vcpkg-root/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/"
-      - "C:/Users/djroc/AppData/Roaming/npm/"
-      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/"
-      - "C:/Program Files/Git/usr/bin/core_perl/"
-    searched_directories:
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/path/to/your/vcpkg/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/dev/vcpkg/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/mingw64/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/local/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/wbem/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Windows/System32/OpenSSH/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/cmd/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/dev/vcpkg/.vcpkg-root/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/msys64/ucrt64/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Roaming/npm/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/vendor_perl/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/Program Files/Git/usr/bin/core_perl/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/path/to/your/vcpkg/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/dev/vcpkg/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/mingw64/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/local/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/wbem/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Windows/System32/OpenSSH/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/cmd/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/dev/vcpkg/.vcpkg-root/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/msys64/ucrt64/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Roaming/npm/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/vendor_perl/lld-link"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link.com"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link.exe"
-      - "C:/dev/vcpkg/installed/x64-windows/debug/Program Files/Git/usr/bin/core_perl/lld-link"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link.com"
-      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link.exe"
-      - "C:/Program Files/Git/path/to/your/vcpkg/lld-link"
-      - "C:/dev/vcpkg/lld-link.com"
-      - "C:/dev/vcpkg/lld-link.exe"
-      - "C:/dev/vcpkg/lld-link"
-      - "C:/Users/djroc/bin/lld-link.com"
-      - "C:/Users/djroc/bin/lld-link.exe"
-      - "C:/Users/djroc/bin/lld-link"
-      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
-      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
-      - "C:/Program Files/Git/mingw64/bin/lld-link"
-      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
-      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
-      - "C:/Program Files/Git/usr/local/bin/lld-link"
-      - "C:/Program Files/Git/usr/bin/lld-link.com"
-      - "C:/Program Files/Git/usr/bin/lld-link.exe"
-      - "C:/Program Files/Git/usr/bin/lld-link"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link.com"
-      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link.exe"
-      - "C:/Users/djroc/opencv/build/x64/vc16/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link.com"
-      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link.exe"
-      - "C:/Users/dev/vcpkg/.vcpkg-root/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.com"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link.exe"
-      - "C:/Users/djroc/AppData/Local/Programs/Python/Python313/lld-link"
-      - "C:/msys64/ucrt64/bin/lld-link.com"
-      - "C:/msys64/ucrt64/bin/lld-link.exe"
-      - "C:/msys64/ucrt64/bin/lld-link"
-      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/djroc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/djroc/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.com"
-      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link.exe"
-      - "C:/Users/djroc/.jdks/openjdk-23.0.1/bin/lld-link"
-      - "C:/Users/djroc/AppData/Roaming/npm/lld-link.com"
-      - "C:/Users/djroc/AppData/Roaming/npm/lld-link.exe"
-      - "C:/Users/djroc/AppData/Roaming/npm/lld-link"
-      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
-      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
-      - "C:/Users/djroc/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
-      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
-      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
-      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
-      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
-    found: false
-    search_context:
-      CMAKE_PROGRAM_PATH:
-        - "C:/dev/vcpkg/installed/x64-windows/tools"
-        - "C:/dev/vcpkg/installed/x64-windows/tools/brotli"
-        - "C:/dev/vcpkg/installed/x64-windows/tools/bzip2"
-      CMAKE_PREFIX_PATH:
-        - "C:/dev/vcpkg/installed/x64-windows"
-        - "C:/dev/vcpkg/installed/x64-windows/debug"
-      ENV{CMAKE_PREFIX_PATH}:
-        - "C:/dev/vcpkg/installed/x64-windows"
-      ENV{PATH}:
-        - "C:\\Program Files\\Git\\path\\to\\your\\vcpkg"
-        - "C:\\dev\\vcpkg"
-        - "C:\\Users\\djroc\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\local\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Program Files\\Git\\mingw64\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin"
-        - "C:\\Users\\djroc\\bin"
-        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin"
-        - "C:\\windows\\system32"
-        - "C:\\windows"
-        - "C:\\windows\\System32\\Wbem"
-        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\windows\\System32\\OpenSSH"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
-        - "C:\\WINDOWS\\System32\\OpenSSH"
-        - "C:\\Program Files\\nodejs"
-        - "C:\\Users\\djroc\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\dev\\vcpkg\\.vcpkg-root"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Python\\Python313"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\djroc\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\djroc\\.jdks\\openjdk-23.0.1\\bin"
-        - "C:\\Users\\djroc\\AppData\\Roaming\\npm"
-        - "C:\\Users\\djroc\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
-        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
-        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Class050CollisionSystemsAsteroids"
-      CMAKE_FIND_ROOT_PATH: "C:/dev/vcpkg/installed/x64-windows;C:/dev/vcpkg/installed/x64-windows/debug"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:6 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-hxmhjk"
-      binary: "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-hxmhjk"
-    cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
-      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
-      VCPKG_TARGET_TRIPLET: "x64-windows"
-      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-hxmhjk'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f6dc4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 7/27/2026 2:29:50 PM.
-        
-        Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxmhjk\\cmTC_f6dc4.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxmhjk\\Debug\\".
-          Creating directory "cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f6dc4.dir\\Debug\\\\" /Fd"cmTC_f6dc4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36243 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f6dc4.dir\\Debug\\\\" /Fd"cmTC_f6dc4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxmhjk\\Debug\\cmTC_f6dc4.exe" /INCREMENTAL /ILK:"cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-hxmhjk/Debug/cmTC_f6dc4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/CMakeScratch/TryCompile-hxmhjk/Debug/cmTC_f6dc4.lib" /MACHINE:X64  /machine:x64 cmTC_f6dc4.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_f6dc4.vcxproj -> C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxmhjk\\Debug\\cmTC_f6dc4.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f6dc4.dir\\Debug\\cmTC_f6dc4.tlog\\cmTC_f6dc4.lastbuildstate".
-        Done Building Project "C:\\Users\\djroc\\NEU\\2026Summer\\CS5850\\110-finalproject-DanielRJilek\\CPP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxmhjk\\cmTC_f6dc4.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.50
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:6 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:6 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36243.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

@@ -4,6 +4,6 @@ message(VERBOSE "Executing download step for catch2")
 
 block(SCOPE_FOR VARIABLES)
 
-include("C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-tmp/catch2/catch2-gitclone.cmake")
+include("C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-tmp/catch2/catch2-gitclone.cmake")
 
 endblock()

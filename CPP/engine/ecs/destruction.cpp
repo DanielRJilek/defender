@@ -36,6 +36,8 @@ void destroy_marked_entities(EntityManager& em, ComponentStorage& storage) {
         storage.remove_component<BulletFireRequest>(entity);
         storage.remove_component<LaserTag>(entity);
         storage.remove_component<RescuedTag>(entity);
+        storage.remove_component<SpriteSheet>(entity);
+        storage.remove_component<Animation>(entity);
         
         em.destroy_entity(entity);
     }

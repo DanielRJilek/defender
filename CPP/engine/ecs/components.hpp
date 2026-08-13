@@ -290,4 +290,48 @@ struct LaserTag {};
 
 struct BulletFireRequest {};
 
+/**
+ * SpriteSheet component
+ *
+ * Associates an entity with a texture atlas and describes the atlas grid
+ * layout. The RenderSystem uses this to calculate a source rectangle for
+ * rendering a single frame from the atlas.
+ *
+ * Frame indexing: frames are numbered left-to-right, top-to-bottom,
+ * starting from 0. Frame 0 is the top-left cell of the grid.
+ *
+ * The Animation component (spec 080-03) will drive current_frame changes.
+ * For this spec, current_frame defaults to 0 and can be set manually.
+ */
+ struct SpriteSheet {
+    std::string atlas_filename;   // Atlas image filename (resolved by ResourceManager)
+    int frame_width = 0;          // Width of each frame in pixels
+    int frame_height = 0;         // Height of each frame in pixels
+    int columns = 1;              // Number of columns in the atlas grid
+    int total_frames = 1;         // Total number of valid frames
+    int current_frame = 0;        // Currently selected frame index (0-based)
+};
+
+/**
+ * Animation component
+ *
+ * Describes a time-based frame animation sequence within a texture atlas.
+ * The AnimationSystem advances current_frame based on delta_time and writes
+ * it to SpriteSheet.current_frame each tick.
+ *
+ * Frame sequence: frames start_frame through start_frame + frame_count - 1.
+ * Looping animations wrap from the last frame back to start_frame.
+ * One-shot animations stop on the last frame and set finished = true.
+ */
+struct Animation {
+    int current_frame = 0;        // Frame index currently selected for rendering
+    int start_frame = 0;          // First frame index of the animation sequence
+    int frame_count = 1;          // Number of frames in the sequence
+    float frame_duration = 0.1f;  // Seconds each frame is displayed before advancing
+    float elapsed = 0.0f;         // Time accumulated since last frame change
+    bool looping = true;          // Whether to wrap back to start_frame after last frame
+    bool playing = true;          // Whether the animation is currently advancing
+    bool finished = false;        // True when a one-shot animation has completed
+};
+
 #endif // COMPONENTS_HPP

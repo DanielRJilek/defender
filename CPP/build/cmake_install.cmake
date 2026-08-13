@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP
+# Install script for directory: C:/Users/djroc/webdev/defender/CPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,28 +34,28 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-build/cmake_install.cmake")
+  include("C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/nlohmann_json-build/cmake_install.cmake")
+  include("C:/Users/djroc/webdev/defender/CPP/build/_deps/nlohmann_json-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/engine/tests/cmake_install.cmake")
+  include("C:/Users/djroc/webdev/defender/CPP/build/engine/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/game/cmake_install.cmake")
+  include("C:/Users/djroc/webdev/defender/CPP/build/game/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/djroc/webdev/defender/CPP/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -71,6 +71,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/djroc/webdev/defender/CPP/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

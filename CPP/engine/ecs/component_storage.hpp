@@ -270,6 +270,8 @@ private:
     std::unordered_map<Entity, AbductingTag> abducting_tags_;
     std::unordered_map<Entity, AbductedTag> abducted_tags_;
     std::unordered_map<Entity, AlienType> alien_types_;
+    std::unordered_map<Entity, SpriteSheet> sprite_sheets_;
+    std::unordered_map<Entity, Animation> animations_;
     /**
      * Helper method to get the storage map for a specific component type.
      * This allows the template methods to work uniformly across all component types.
@@ -324,6 +326,8 @@ template<> std::unordered_map<Entity, AlienType>& ComponentStorage::get_storage<
 template<> std::unordered_map<Entity, Script>& ComponentStorage::get_storage<Script>();
 template<> std::unordered_map<Entity, Direction>& ComponentStorage::get_storage<Direction>();
 template<> std::unordered_map<Entity, BulletFireRequest>& ComponentStorage::get_storage<BulletFireRequest>();
+template<> std::unordered_map<Entity, SpriteSheet>& ComponentStorage::get_storage<SpriteSheet>();
+template<> std::unordered_map<Entity, Animation>& ComponentStorage::get_storage<Animation>();
 template<> std::unordered_map<Entity, LaserTag>& ComponentStorage::get_storage<LaserTag>();
 template<> const std::unordered_map<Entity, Collider>& ComponentStorage::get_storage<Collider>() const;
 template<> const std::unordered_map<Entity, Lifetime>& ComponentStorage::get_storage<Lifetime>() const;
@@ -343,6 +347,8 @@ template<> const std::unordered_map<Entity, Script>& ComponentStorage::get_stora
 template<> const std::unordered_map<Entity, Direction>& ComponentStorage::get_storage<Direction>() const;
 template<> const std::unordered_map<Entity, BulletFireRequest>& ComponentStorage::get_storage<BulletFireRequest>() const;
 template<> const std::unordered_map<Entity, LaserTag>& ComponentStorage::get_storage<LaserTag>() const;
+template<> const std::unordered_map<Entity, SpriteSheet>& ComponentStorage::get_storage<SpriteSheet>() const;
+template<> const std::unordered_map<Entity, Animation>& ComponentStorage::get_storage<Animation>() const;
 
 // Prevent implicit instantiation — definitions are in component_storage.cpp
 extern template void ComponentStorage::add_component<Position>(Entity, const Position&);
@@ -418,6 +424,8 @@ extern template void ComponentStorage::add_component<Script>(Entity, const Scrip
 extern template void ComponentStorage::add_component<Direction>(Entity, const Direction&);
 extern template void ComponentStorage::add_component<BulletFireRequest>(Entity, const BulletFireRequest&);
 extern template void ComponentStorage::add_component<LaserTag>(Entity, const LaserTag&);
+extern template void ComponentStorage::add_component<SpriteSheet>(Entity, const SpriteSheet&);
+extern template void ComponentStorage::add_component<Animation>(Entity, const Animation&);
 
 extern template std::optional<std::reference_wrapper<Collider>> ComponentStorage::get_component<Collider>(Entity);
 extern template std::optional<std::reference_wrapper<Lifetime>> ComponentStorage::get_component<Lifetime>(Entity);
@@ -438,6 +446,8 @@ extern template std::optional<std::reference_wrapper<Script>> ComponentStorage::
 extern template std::optional<std::reference_wrapper<Direction>> ComponentStorage::get_component<Direction>(Entity);
 extern template std::optional<std::reference_wrapper<BulletFireRequest>> ComponentStorage::get_component<BulletFireRequest>(Entity);
 extern template std::optional<std::reference_wrapper<LaserTag>> ComponentStorage::get_component<LaserTag>(Entity);
+extern template std::optional<std::reference_wrapper<SpriteSheet>> ComponentStorage::get_component<SpriteSheet>(Entity);
+extern template std::optional<std::reference_wrapper<Animation>> ComponentStorage::get_component<Animation>(Entity);
 
 extern template std::optional<std::reference_wrapper<const Collider>> ComponentStorage::get_component<Collider>(Entity) const;
 extern template std::optional<std::reference_wrapper<const Lifetime>> ComponentStorage::get_component<Lifetime>(Entity) const;
@@ -458,6 +468,8 @@ extern template std::optional<std::reference_wrapper<Script>> ComponentStorage::
 extern template std::optional<std::reference_wrapper<Direction>> ComponentStorage::get_component<Direction>(Entity);
 extern template std::optional<std::reference_wrapper<BulletFireRequest>> ComponentStorage::get_component<BulletFireRequest>(Entity);
 extern template std::optional<std::reference_wrapper<LaserTag>> ComponentStorage::get_component<LaserTag>(Entity);
+extern template std::optional<std::reference_wrapper<SpriteSheet>> ComponentStorage::get_component<SpriteSheet>(Entity);
+extern template std::optional<std::reference_wrapper<Animation>> ComponentStorage::get_component<Animation>(Entity);
 
 extern template void ComponentStorage::remove_component<Collider>(Entity);
 extern template void ComponentStorage::remove_component<Lifetime>(Entity);
@@ -478,6 +490,8 @@ extern template void ComponentStorage::remove_component<Script>(Entity);
 extern template void ComponentStorage::remove_component<Direction>(Entity);
 extern template void ComponentStorage::remove_component<BulletFireRequest>(Entity);
 extern template void ComponentStorage::remove_component<LaserTag>(Entity);
+extern template void ComponentStorage::remove_component<SpriteSheet>(Entity);
+extern template void ComponentStorage::remove_component<Animation>(Entity);
 
 extern template bool ComponentStorage::has_component<Collider>(Entity) const;
 extern template bool ComponentStorage::has_component<Lifetime>(Entity) const;
@@ -498,6 +512,8 @@ extern template bool ComponentStorage::has_component<Script>(Entity) const;
 extern template bool ComponentStorage::has_component<Direction>(Entity) const;
 extern template bool ComponentStorage::has_component<BulletFireRequest>(Entity) const;
 extern template bool ComponentStorage::has_component<LaserTag>(Entity) const;
+extern template bool ComponentStorage::has_component<SpriteSheet>(Entity) const;
+extern template bool ComponentStorage::has_component<Animation>(Entity) const;
 
 extern template std::vector<Entity> ComponentStorage::entities_with_component<Collider>() const;
 extern template std::vector<Entity> ComponentStorage::entities_with_component<Lifetime>() const;
@@ -518,5 +534,7 @@ extern template std::vector<Entity> ComponentStorage::entities_with_component<Sc
 extern template std::vector<Entity> ComponentStorage::entities_with_component<Direction>() const;
 extern template std::vector<Entity> ComponentStorage::entities_with_component<BulletFireRequest>() const;
 extern template std::vector<Entity> ComponentStorage::entities_with_component<LaserTag>() const;
+extern template std::vector<Entity> ComponentStorage::entities_with_component<SpriteSheet>() const;
+extern template std::vector<Entity> ComponentStorage::entities_with_component<Animation>() const;
 
 #endif // COMPONENT_STORAGE_HPP

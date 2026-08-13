@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt" AND EXISTS "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt" AND
-  "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt")
+if(EXISTS "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt" AND EXISTS "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt" AND
+  "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt'"
+    "'C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-src'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -37,7 +37,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/mingw64/bin/git.exe"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/catchorg/Catch2.git" "catch2-src"
-    WORKING_DIRECTORY "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps"
+    WORKING_DIRECTORY "C:/Users/djroc/webdev/defender/CPP/build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -53,7 +53,7 @@ endif()
 execute_process(
   COMMAND "C:/Program Files/Git/mingw64/bin/git.exe"
           checkout "v3.5.2" --
-  WORKING_DIRECTORY "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-src"
+  WORKING_DIRECTORY "C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
@@ -66,22 +66,22 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/mingw64/bin/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-src"
+    WORKING_DIRECTORY "C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/_deps/catch2-src'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/djroc/webdev/defender/CPP/build/_deps/catch2-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt" "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitinfo.txt" "C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/djroc/webdev/defender/CPP/build/CMakeFiles/fc-stamp/catch2/catch2-gitclone-lastrun.txt'")
 endif()

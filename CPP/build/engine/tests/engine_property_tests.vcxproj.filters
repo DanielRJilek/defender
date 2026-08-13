@@ -1,94 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_entity_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_entity_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_component_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_component_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_blackboard_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_blackboard_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_render_decision_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_render_decision_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_hud_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_hud_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_camera_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_camera_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_camera_control_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_camera_control_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_gamedata_loader_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_gamedata_loader_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_new_component_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_new_component_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_aabb_overlap_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_aabb_overlap_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_brute_force_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_brute_force_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_wrap_system_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_wrap_system_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_lifetime_system_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_lifetime_system_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\property\test_collision_system_properties.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\property\test_collision_system_properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\entity_manager.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\entity_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\component_storage.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\component_storage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\camera_system.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\camera_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\camera_control_system.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\camera_control_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\destruction.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\destruction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\collision_math.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\collision_math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\brute_force_strategy.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\brute_force_strategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\collision_system.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\collision_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\wrap_system.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\wrap_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\systems\lifetime_system.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\ecs\systems\lifetime_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\timer.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\gamedata_loader.cpp">
+    <ClCompile Include="C:\Users\djroc\webdev\defender\CPP\engine\gamedata_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\djroc\webdev\defender\CPP\engine\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+    <Natvis Include="C:\Users\djroc\webdev\defender\CPP\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6345FD31-2C00-3640-9431-AE94D1E79635}</UniqueIdentifier>
+      <UniqueIdentifier>{24338209-A92A-39C7-8485-A77D70E936AD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

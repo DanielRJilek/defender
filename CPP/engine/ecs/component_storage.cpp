@@ -262,6 +262,26 @@ const std::unordered_map<Entity, LaserTag>& ComponentStorage::get_storage<LaserT
     return laser_tags_;
 }
 
+template<>
+std::unordered_map<Entity, SpriteSheet>& ComponentStorage::get_storage<SpriteSheet>() {
+    return sprite_sheets_;
+}
+
+template<>
+const std::unordered_map<Entity, SpriteSheet>& ComponentStorage::get_storage<SpriteSheet>() const {
+    return sprite_sheets_;
+}
+
+template<>
+std::unordered_map<Entity, Animation>& ComponentStorage::get_storage<Animation>() {
+    return animations_;
+}
+
+template<>
+const std::unordered_map<Entity, Animation>& ComponentStorage::get_storage<Animation>() const {
+    return animations_;
+}
+
 template<typename T>
 void ComponentStorage::add_component(Entity entity, const T& component) {
     // Get the storage map for this component type
@@ -374,6 +394,8 @@ template void ComponentStorage::add_component<Script>(Entity, const Script&);
 template void ComponentStorage::add_component<Direction>(Entity, const Direction&);
 template void ComponentStorage::add_component<BulletFireRequest>(Entity, const BulletFireRequest&);
 template void ComponentStorage::add_component<LaserTag>(Entity, const LaserTag&);
+template void ComponentStorage::add_component<SpriteSheet>(Entity, const SpriteSheet&);
+template void ComponentStorage::add_component<Animation>(Entity, const Animation&);
 
 template std::optional<std::reference_wrapper<Position>> ComponentStorage::get_component<Position>(Entity);
 template std::optional<std::reference_wrapper<Size>> ComponentStorage::get_component<Size>(Entity);
@@ -405,6 +427,8 @@ template std::optional<std::reference_wrapper<Script>> ComponentStorage::get_com
 template std::optional<std::reference_wrapper<Direction>> ComponentStorage::get_component<Direction>(Entity);
 template std::optional<std::reference_wrapper<BulletFireRequest>> ComponentStorage::get_component<BulletFireRequest>(Entity);
 template std::optional<std::reference_wrapper<LaserTag>> ComponentStorage::get_component<LaserTag>(Entity);
+template std::optional<std::reference_wrapper<SpriteSheet>> ComponentStorage::get_component<SpriteSheet>(Entity);
+template std::optional<std::reference_wrapper<Animation>> ComponentStorage::get_component<Animation>(Entity);
 template std::optional<std::reference_wrapper<const Position>> ComponentStorage::get_component<Position>(Entity) const;
 template std::optional<std::reference_wrapper<const Size>> ComponentStorage::get_component<Size>(Entity) const;
 template std::optional<std::reference_wrapper<const Color>> ComponentStorage::get_component<Color>(Entity) const;
@@ -435,6 +459,8 @@ template std::optional<std::reference_wrapper<const Script>> ComponentStorage::g
 template std::optional<std::reference_wrapper<const Direction>> ComponentStorage::get_component<Direction>(Entity) const;
 template std::optional<std::reference_wrapper<const BulletFireRequest>> ComponentStorage::get_component<BulletFireRequest>(Entity) const;
 template std::optional<std::reference_wrapper<const LaserTag>> ComponentStorage::get_component<LaserTag>(Entity) const;
+template std::optional<std::reference_wrapper<const SpriteSheet>> ComponentStorage::get_component<SpriteSheet>(Entity) const;
+template std::optional<std::reference_wrapper<const Animation>> ComponentStorage::get_component<Animation>(Entity) const;
 
 template void ComponentStorage::remove_component<Position>(Entity);
 template void ComponentStorage::remove_component<Size>(Entity);
@@ -466,6 +492,8 @@ template void ComponentStorage::remove_component<Script>(Entity);
 template void ComponentStorage::remove_component<Direction>(Entity);
 template void ComponentStorage::remove_component<BulletFireRequest>(Entity);
 template void ComponentStorage::remove_component<LaserTag>(Entity);
+template void ComponentStorage::remove_component<SpriteSheet>(Entity);
+template void ComponentStorage::remove_component<Animation>(Entity);
 template bool ComponentStorage::has_component<Position>(Entity) const;
 template bool ComponentStorage::has_component<Size>(Entity) const;
 template bool ComponentStorage::has_component<Color>(Entity) const;
@@ -496,6 +524,8 @@ template bool ComponentStorage::has_component<Script>(Entity) const;
 template bool ComponentStorage::has_component<Direction>(Entity) const;
 template bool ComponentStorage::has_component<BulletFireRequest>(Entity) const;
 template bool ComponentStorage::has_component<LaserTag>(Entity) const;
+template bool ComponentStorage::has_component<SpriteSheet>(Entity) const;
+template bool ComponentStorage::has_component<Animation>(Entity) const;
 template std::vector<Entity> ComponentStorage::entities_with_component<Position>() const;
 template std::vector<Entity> ComponentStorage::entities_with_component<Size>() const;
 template std::vector<Entity> ComponentStorage::entities_with_component<Color>() const;
@@ -526,3 +556,5 @@ template std::vector<Entity> ComponentStorage::entities_with_component<Script>()
 template std::vector<Entity> ComponentStorage::entities_with_component<Direction>() const;
 template std::vector<Entity> ComponentStorage::entities_with_component<BulletFireRequest>() const;
 template std::vector<Entity> ComponentStorage::entities_with_component<LaserTag>() const;
+template std::vector<Entity> ComponentStorage::entities_with_component<SpriteSheet>() const;
+template std::vector<Entity> ComponentStorage::entities_with_component<Animation>() const;

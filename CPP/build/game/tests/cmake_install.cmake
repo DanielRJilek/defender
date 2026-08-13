@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/game/tests
+# Install script for directory: C:/Users/djroc/webdev/defender/CPP/game/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/djroc/NEU/2026Summer/CS5850/110-finalproject-DanielRJilek/CPP/build/game/tests/install_local_manifest.txt"
+  file(WRITE "C:/Users/djroc/webdev/defender/CPP/build/game/tests/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
