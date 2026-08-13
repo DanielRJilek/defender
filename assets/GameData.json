@@ -4,7 +4,6 @@
     "width": 2000,
     "height": 800
   },
-  
   "world": {
     "x": -1000,
     "y": -400,
@@ -18,18 +17,23 @@
     "columns": 8
   },
   "animation_definitions": {
-    "gem_red": {
-      "idle":    { "start_frame": 0, "frame_count": 8, "frame_duration": 0.0,  "looping": true },
-      "matched": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03, "looping": true }
+    "ship": {
+      "ship_right":    { "start_frame": 0, "frame_count": 1, "frame_duration": 0.03,  "looping": true },
+      "ship_left": { "start_frame": 1, "frame_count": 1, "frame_duration": 0.03, "looping": true }
+    },
+    "exhaust": {
+      "exhaust_right": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03,  "looping": true },
+      "exhaust_left": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03, "looping": true }
+    },
+    "lander": {
+      "lander_right": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.03,  "looping": true },
+      "lander_left": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.03, "looping": true }
     }
   },
   "initial_animation_states": {
-    "gem_red": "idle",
-    "gem_blue": "idle",
-    "gem_green": "idle",
-    "gem_yellow": "idle",
-    "gem_purple": "idle",
-    "gem_orange": "idle"
+    "ship": "ship_right",
+    "exhaust": "exhaust_right",
+    "lander": "lander_right"
   },
   "entities": [
     {

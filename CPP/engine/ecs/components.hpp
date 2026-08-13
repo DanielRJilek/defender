@@ -334,4 +334,22 @@ struct Animation {
     bool finished = false;        // True when a one-shot animation has completed
 };
 
+/**
+ * AnimationState component
+ *
+ * Manages named animation states and transitions. Game systems set
+ * current_state to trigger animation changes (e.g., "idle", "highlighted",
+ * "destroying", "spawning"). The AnimationStateSystem detects state changes
+ * and updates the Animation component parameters from data-driven definitions.
+ *
+ * State change detection: when current_state != previous_state, the
+ * AnimationStateSystem looks up the new state's Animation parameters
+ * from the Blackboard and applies them.
+ */
+ struct AnimationState {
+    std::string current_state = "idle";   // Named animation state
+    std::string previous_state = "";      // Previous state for change detection
+    bool state_changed = false;           // True on the frame a transition was processed
+};
+
 #endif // COMPONENTS_HPP
