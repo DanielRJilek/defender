@@ -11,6 +11,26 @@
     "width": 2000,
     "height": 800
   },
+  "atlas": {
+    "filename": "sprite_atlas.png",
+    "frame_width": 64,
+    "frame_height": 64,
+    "columns": 8
+  },
+  "animation_definitions": {
+    "gem_red": {
+      "idle":    { "start_frame": 0, "frame_count": 8, "frame_duration": 0.0,  "looping": true },
+      "matched": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03, "looping": true }
+    }
+  },
+  "initial_animation_states": {
+    "gem_red": "idle",
+    "gem_blue": "idle",
+    "gem_green": "idle",
+    "gem_yellow": "idle",
+    "gem_purple": "idle",
+    "gem_orange": "idle"
+  },
   "entities": [
     {
       "id": "background",
