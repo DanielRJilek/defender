@@ -1,0 +1,45 @@
+{
+  "output_directory": "images",
+  "model": "openai/gpt-5-image",
+  "images": [
+
+    {
+      "filename": "background_tile.png",
+      "width": 512,
+      "height": 512,
+      "prompt": "A star background for a classic asteroids game.  mostly black with some stars and distan nebulas."},
+    {
+      "filename": "ship.png",
+
+      "width": 512,
+      "height": 512,
+      "prompt": "A top-down view of a small spaceship, pixel art style, 16-bit retro SNES aesthetic, crisp clean pixels with no anti-aliasing, gray and silver color scheme, detailed cockpit, wings, and thrusters, facing forward, arms at sides. Output as a PNG with a fully transparent (alpha=0) background. The ship should be the only visible element, no ground shadow, no border, no background color."
+    },
+    {
+      "filename": "asteroid.png",
+      "width": 512, 
+      "height": 512,
+      "prompt": "A pixel-art asteroid, 16-bit retro SNES aesthetic, crisp clean pixels with no anti-aliasing, gray and brown tones, irregular polygonal shape, space theme, floating in zero gravity, no background, fully transparent background, only the asteroid shape visible"
+    },
+    {
+      "filename": "medium_asteroid.png",
+      "width": 512,
+      "height": 512,
+      "prompt": "A medium-sized pixel-art asteroid, 16-bit retro SNES aesthetic, crisp clean pixels with no anti-aliasing, gray and brown tones, irregular polygonal shape, space theme, floating in zero gravity, no background, fully transparent background, only the asteroid shape visible"
+    },
+    {
+      "filename":"small_asteroid.png",
+      "width":512,
+      "height":512,
+      "prompt":"A small pixel-art asteroid, 16-bit retro SNES aesthetic, crisp clean pixels with no anti-aliasing, gray and brown tones, irregular polygonal shape, space theme, floating in zero gravity, no background, fully transparent background, only the asteroid shape visible"
+    }
+  ],
+  "programmatic": [
+    {
+      "filename": "checkerboard.png",
+      "width": 512,
+      "height": 512,
+      "description": "Magenta and black checkerboard pattern (missing texture fallback). Generated programmatically, no API call needed."
+    }
+  ]
+}

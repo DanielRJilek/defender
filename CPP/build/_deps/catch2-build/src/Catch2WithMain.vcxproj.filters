@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\_deps\catch2-src\src\catch2\internal\catch_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\_deps\catch2-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6345FD31-2C00-3640-9431-AE94D1E79635}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

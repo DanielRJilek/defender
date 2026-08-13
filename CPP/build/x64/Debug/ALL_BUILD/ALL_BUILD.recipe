@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\engine_property_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\engine_timer_property_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\engine_timer_unit_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\engine_unit_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\game\Debug\game.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\game\tests\Debug\game_property_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\game\tests\Debug\game_unit_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\resource_manager_property_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\engine\tests\Debug\resource_manager_unit_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

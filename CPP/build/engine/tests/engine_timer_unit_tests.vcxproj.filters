@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\unit\test_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\unit\test_timer_no_advance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\entity_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\ecs\component_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\djroc\NEU\2026Summer\CS5850\110-finalproject-DanielRJilek\CPP\engine\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6345FD31-2C00-3640-9431-AE94D1E79635}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
