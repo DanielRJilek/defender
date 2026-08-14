@@ -25,11 +25,13 @@ set(ENGINE_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/ecs/systems/screenshot_system.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/ecs/systems/wrap_system.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/ecs/systems/script_system.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../engine/ecs/systems/animation_system.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/gamedata_loader.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/resource_manager.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/timer.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/lua_manager.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/../engine/lua_bindings.cpp"
+    
 )
 
 # Collect game source files

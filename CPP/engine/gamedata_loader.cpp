@@ -150,6 +150,33 @@ void load_game_data(const std::string& file_path,
         blackboard.set<float>("world.height", world.value("height", 0.0f));
     }
 
+    // 4.8 Atlas configuration (optional)
+    if (data.contains("atlas")) {
+        const auto& atlas = data["atlas"];
+        blackboard.set<std::string>("atlas.filename", atlas["filename"].get<std::string>());
+        for (auto& [key, value] : atlas.items()) {
+            if (!value.is_object()) continue;
+            blackboard.set<int>("atlas." + key + ".frame_width", value["frame_width"].get<int>());
+            blackboard.set<int>("atlas." + key + ".frame_height", value["frame_height"].get<int>());
+            blackboard.set<int>("atlas." + key + ".columns", value["columns"].get<int>());
+            blackboard.set<int>("atlas." + key + ".start_height", value["start_height"].get<int>());
+        }
+    }
+
+    // 4.12 Animation definitions (optional)
+    if (data.contains("animation_definitions")) {
+        const auto& anim_defs = data["animation_definitions"];
+        for (auto& [gem_id, states_obj] : anim_defs.items()) {
+            for (auto& [state_name, params] : states_obj.items()) {
+                std::string prefix = "anim_def." + gem_id + "." + state_name;
+                blackboard.set<int>(prefix + ".start_frame", params["start_frame"].get<int>());
+                blackboard.set<int>(prefix + ".frame_count", params["frame_count"].get<int>());
+                blackboard.set<float>(prefix + ".frame_duration", params["frame_duration"].get<float>());
+                blackboard.set<bool>(prefix + ".looping", params["looping"].get<bool>());
+            }
+        }
+    }
+
     // 4.6 Debug configuration (optional)
     if (data.contains("debug")) {
         const auto& debug = data["debug"];

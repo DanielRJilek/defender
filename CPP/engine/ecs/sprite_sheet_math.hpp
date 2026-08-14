@@ -13,15 +13,15 @@
  * @param columns      Number of columns in the atlas grid (must be > 0)
  * @param frame_width  Width of each frame in pixels
  * @param frame_height Height of each frame in pixels
+ * @param start_height Starting height of the row in pixels
  * @return SDL_FRect with x, y, w, h for the source region
  */
 inline SDL_FRect compute_source_rect(int frame_index, int columns,
-                                      int frame_width, int frame_height) {
+                                      int frame_width, int frame_height, int start_height) {
     int col = frame_index % columns;
-    int row = frame_index / columns;
     return SDL_FRect{
         static_cast<float>(col * frame_width),
-        static_cast<float>(row * frame_height),
+        static_cast<float>(start_height),
         static_cast<float>(frame_width),
         static_cast<float>(frame_height)
     };

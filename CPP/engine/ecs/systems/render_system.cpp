@@ -13,6 +13,7 @@
 #include "engine/resource_manager.hpp"
 #include <algorithm>
 #include <cmath>
+#include "engine/ecs/sprite_sheet_math.hpp"
 
 RenderSystem::RenderSystem(SDL_Renderer* renderer, ResourceManager& resource_manager)
     : renderer_(renderer), resource_manager_(resource_manager) {
@@ -81,8 +82,19 @@ void RenderSystem::render(const ComponentStorage& storage, const Blackboard& bla
         float render_width = size.width * zoom;
         float render_height = size.height * zoom;
 
-        // Priority: Images > Color > skip
-        if (storage.has_component<Images>(entity)) {
+        // Priority: SpriteSheet > Images > Color > skip
+        if (storage.has_component<SpriteSheet>(entity)) {
+            auto ss_opt = storage.get_component<SpriteSheet>(entity);
+            if (ss_opt.has_value()) {
+                const auto& ss = ss_opt->get();
+                SDL_Texture* texture = resource_manager_.load_texture(ss.atlas_filename);
+                SDL_FRect src_rect = compute_source_rect(
+                    ss.current_frame, ss.columns, ss.frame_width, ss.frame_height, ss.start_height);
+                draw_entity(x, y, render_width, render_height,
+                            Color{0, 0, 0, 255}, texture, &src_rect);
+            }
+        }
+        else if (storage.has_component<Images>(entity)) {
             auto img_opt = storage.get_component<Images>(entity);
             if (img_opt.has_value()) {
                 SDL_Texture* texture = resource_manager_.load_texture(
@@ -104,7 +116,8 @@ void RenderSystem::present() {
 }
 
 void RenderSystem::draw_entity(float x, float y, float width, float height,
-                                const Color& color, SDL_Texture* texture) {
+                                const Color& color, SDL_Texture* texture,
+                                const SDL_FRect* src_rect) {
     // Get window height for Y-axis flip
     int window_width, window_height;
     SDL_GetRenderOutputSize(renderer_, &window_width, &window_height);
@@ -120,7 +133,7 @@ void RenderSystem::draw_entity(float x, float y, float width, float height,
 
     if (texture) {
         // Non-rotated textured rendering path — no rotation overhead
-        SDL_RenderTexture(renderer_, texture, nullptr, &rect);
+        SDL_RenderTexture(renderer_, texture, src_rect, &rect);
     } else {
         // Colored rectangle rendering path (backward compatible)
         // Rotation is ignored — SDL3 has no rotated fill-rect function

@@ -87,6 +87,8 @@
 #include "abduction_system.hpp"
 #include "cleanup_system.hpp"
 #include "hyperspace_system.hpp"
+#include "engine/ecs/systems/animation_system.hpp"
+#include "animation_state_system.hpp"
 
 // Debug infrastructure for frame dump/trace
 #include "engine/ecs/debug/json_serializer.hpp"
@@ -451,7 +453,8 @@ int main(int argc, char* argv[]) {
     // Collision response and asteroid spawn systems
     CollisionResponseSystem collision_response_system;
     HUDUpdateSystem hud_update_system;
-
+    AnimationSystem animation_system;
+    AnimationStateSystem animation_state_system;
     // Lua scripting
     LuaManager lua_manager;
     ScriptSystem script_system(lua_manager);
@@ -1030,6 +1033,9 @@ int main(int argc, char* argv[]) {
                     {"ScriptSystem", [&]() {
                         script_system.update(component_storage, entity_manager, blackboard);
                     }},
+                    {"AnimationStateSystem", [&]() {
+                        animation_state_system.update(component_storage, blackboard);
+                    }},
                 };
 
                 // Run each system individually with intermediate snapshots
@@ -1097,6 +1103,7 @@ int main(int argc, char* argv[]) {
                     cleanup_system.update(component_storage, blackboard, entity_manager);
                     lifetime_system.update(component_storage, blackboard);
                     script_system.update(component_storage, entity_manager, blackboard);
+                    animation_state_system.update(component_storage, blackboard);
                 } // end if (game_state != "GAME_OVER")
                 destroy_marked_entities(entity_manager, component_storage);
 
@@ -1192,6 +1199,8 @@ int main(int argc, char* argv[]) {
 
         // Always-run systems (camera, rendering, HUD) — execute every frame
         // CameraControlSystem for debug zoom/pan (+/-, WASD)
+        animation_state_system.update(component_storage, blackboard);
+        animation_system.update(component_storage, blackboard);
         camera_control_system.update(blackboard);
 
         // CameraSystem for debug panning

@@ -308,6 +308,7 @@ struct BulletFireRequest {};
     int frame_width = 0;          // Width of each frame in pixels
     int frame_height = 0;         // Height of each frame in pixels
     int columns = 1;              // Number of columns in the atlas grid
+    int start_height = 0;         // Starting height of the row in pixels
     int total_frames = 1;         // Total number of valid frames
     int current_frame = 0;        // Currently selected frame index (0-based)
 };

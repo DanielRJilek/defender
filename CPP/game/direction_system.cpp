@@ -13,22 +13,17 @@ void DirectionSystem::update(ComponentStorage& storage, Blackboard& blackboard) 
             continue;
         }
         auto& velocity = velocity_opt->get();
-        // auto& images_opt = storage.get_component<Images>(entity);
-        // if (!images_opt.has_value()) {
-        //     continue;
-        // }
-        // auto& images = images_opt->get();
-        // if (velocity.dx > 0) {
-        //     direction.dx = 1;
-        //     images.active_index = 1;
-        // } else if (velocity.dx < 0) {
-        //     direction.dx = -1;
-        //     images.active_index = 0;
-        // } 
-        auto anim_opt = storage.get_component<Animation>(entity);
-        if (!anim_opt.has_value()) {
+        auto& images_opt = storage.get_component<Images>(entity);
+        if (!images_opt.has_value()) {
             continue;
         }
-        Animation& anim = anim_opt->get();
+        auto& images = images_opt->get();
+        if (velocity.dx > 0) {
+            direction.dx = 1;
+            images.active_index = 1;
+        } else if (velocity.dx < 0) {
+            direction.dx = -1;
+            images.active_index = 0;
+        } 
     }
 }

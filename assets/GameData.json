@@ -12,28 +12,37 @@
   },
   "atlas": {
     "filename": "sprite_atlas.png",
-    "frame_width": 64,
-    "frame_height": 64,
-    "columns": 8
+    "row0" : {
+      "frame_width": 32,
+      "frame_height": 12,
+      "columns": 2,
+      "start_height": 0
+    },
+    "row1" : {
+      "frame_width": 18,
+      "frame_height": 16,
+      "columns": 3,
+      "start_height": 12
+    }
   },
   "animation_definitions": {
     "ship": {
-      "ship_right":    { "start_frame": 0, "frame_count": 1, "frame_duration": 0.03,  "looping": true },
-      "ship_left": { "start_frame": 1, "frame_count": 1, "frame_duration": 0.03, "looping": true }
+      "right": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1,  "looping": true },
+      "left": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1, "looping": true }
     },
     "exhaust": {
-      "exhaust_right": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03,  "looping": true },
-      "exhaust_left": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.03, "looping": true }
+      "right": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1,  "looping": true },
+      "left": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1, "looping": true }
     },
     "lander": {
-      "lander_right": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.03,  "looping": true },
-      "lander_left": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.03, "looping": true }
+      "right": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.1,  "looping": true },
+      "left": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.1, "looping": true }
     }
   },
   "initial_animation_states": {
-    "ship": "ship_right",
-    "exhaust": "exhaust_right",
-    "lander": "lander_right"
+    "ship": "right",
+    "exhaust": "right",
+    "lander": "right"
   },
   "entities": [
     {

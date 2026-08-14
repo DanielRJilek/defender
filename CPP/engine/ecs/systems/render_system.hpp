@@ -109,10 +109,11 @@ private:
      * @param height Zoom-scaled height in pixels
      * @param color  Color component (used only when texture is nullptr)
      * @param texture Optional texture to render (nullptr = colored rectangle)
-     * @param rotation_angle Rotation angle in radians (default 0.0f, used only with texture)
+     * @param src_rect Optional source rectangle for atlas rendering (nullptr = full texture)
      */
-    void draw_entity(float x, float y, float width, float height,
-                     const Color& color, SDL_Texture* texture = nullptr);
+     void draw_entity(float x, float y, float width, float height,
+        const Color& color, SDL_Texture* texture = nullptr,
+        const SDL_FRect* src_rect = nullptr);
 
     SDL_Renderer* renderer_;
     ResourceManager& resource_manager_;
