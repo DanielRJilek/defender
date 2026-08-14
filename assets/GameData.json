@@ -27,22 +27,21 @@
   },
   "animation_definitions": {
     "ship": {
-      "right": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1,  "looping": true },
-      "left": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1, "looping": true }
+      "right": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1,  "looping": true, "row": "row0" },
+      "left": { "start_frame": 0, "frame_count": 1, "frame_duration": 0.1, "looping": true, "row": "row0" }
     },
     "exhaust": {
-      "right": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1,  "looping": true },
-      "left": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1, "looping": true }
+      "right": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1,  "looping": true, "row": "row1" },
+      "left": { "start_frame": 0, "frame_count": 8, "frame_duration": 0.1, "looping": true, "row": "row1" }
     },
     "lander": {
-      "right": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.1,  "looping": true },
-      "left": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.1, "looping": true }
+      "default": { "start_frame": 0, "frame_count": 3, "frame_duration": 0.1,  "looping": true, "row": "row1" }
     }
   },
   "initial_animation_states": {
     "ship": "right",
     "exhaust": "right",
-    "lander": "right"
+    "lander": "default"
   },
   "entities": [
     {
@@ -94,7 +93,7 @@
                 "speed": 100.0, 
                 "points": 150, 
                 "mask": 4,
-                "images": { "names": ["lander_left.png", "lander_right.png"], "active_index": 0 },
+                "animations": ["lander"],
                 "script": { "filename": "lander" } },
     "swarmer": { "size": { "width": 20.0, "height": 16.0 }, 
                 "speed": 150.0, 

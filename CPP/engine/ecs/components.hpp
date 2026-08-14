@@ -333,6 +333,7 @@ struct Animation {
     bool looping = true;          // Whether to wrap back to start_frame after last frame
     bool playing = true;          // Whether the animation is currently advancing
     bool finished = false;        // True when a one-shot animation has completed
+    std::string row = "row0";    // Row in the atlas to use for rendering
 };
 
 /**

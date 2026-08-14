@@ -166,14 +166,23 @@ void load_game_data(const std::string& file_path,
     // 4.12 Animation definitions (optional)
     if (data.contains("animation_definitions")) {
         const auto& anim_defs = data["animation_definitions"];
-        for (auto& [gem_id, states_obj] : anim_defs.items()) {
+        for (auto& [entity, states_obj] : anim_defs.items()) {
             for (auto& [state_name, params] : states_obj.items()) {
-                std::string prefix = "anim_def." + gem_id + "." + state_name;
+                std::string prefix = "anim_def." + entity + "." + state_name;
                 blackboard.set<int>(prefix + ".start_frame", params["start_frame"].get<int>());
                 blackboard.set<int>(prefix + ".frame_count", params["frame_count"].get<int>());
                 blackboard.set<float>(prefix + ".frame_duration", params["frame_duration"].get<float>());
                 blackboard.set<bool>(prefix + ".looping", params["looping"].get<bool>());
+                blackboard.set<std::string>(prefix + ".row", params["row"].get<std::string>());
             }
+        }
+    }
+
+    // 4.13 Initial animation states (optional)
+    if (data.contains("initial_animation_states")) {
+        const auto& initial_states = data["initial_animation_states"];
+        for (auto& [entity, state] : initial_states.items()) {
+            blackboard.set<std::string>("anim_def." + entity + ".initial_state", state.get<std::string>());
         }
     }
 
@@ -320,6 +329,9 @@ void load_game_data(const std::string& file_path,
                 if (value.contains("script")) {
                     std::string filename = value["script"].value("filename", "wander");
                     blackboard.set("alien." + key + ".script", Script{filename, false});
+                }
+                if (value.contains("animations")) {
+                    blackboard.set("alien." + key + ".animations", value["animations"].get<std::vector<std::string>>());
                 }
             }
         }
